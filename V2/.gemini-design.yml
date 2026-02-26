@@ -1,0 +1,36 @@
+project: Mauricio_Portfolio_Redesign
+created: 2026-02-25
+brand:
+  mood: Editorial, Sophisticated, Academic, Refined
+  personality: The "Editorial Technologist." Treats software engineering as an art form and presents work like a curated gallery or high-end magazine. Confident but understated.
+color:
+  philosophy: High-contrast but soft. Relying on natural, paper-like tones rather than harsh digital screens. Color is used sparingly, primarily derived from the project imagery itself.
+  mode: Light mode strictly enforced to contrast with the previous dark brutalist version.
+  palette:
+    background: "#FDFBF7" # Warm off-white, resembling uncoated paper
+    text_primary: "#1C1917" # Deep stone/charcoal, not pure black
+    text_secondary: "#78716C" # Warm gray for metadata
+    border: "#E7E5E4" # Subtle dividers
+typography:
+  direction: High-end editorial pairing.
+  headings: Playfair Display, Garamond, or system serif. Highly kerned, tracking slightly tight. Used for names, project titles, and large pull quotes.
+  body: Clean, geometric sans-serif (Inter, Helvetica) for legibility.
+  mono: Used strictly for technical metadata (year, stack) to provide a subtle "engineer" contrast to the "designer" serif.
+layout:
+  principles:
+    - Rigid horizontal alignment.
+    - Massive use of whitespace (negative space).
+    - Top-down reading flow with clear typographic hierarchy.
+    - Thin hairline borders to separate sections (magazine style).
+  responsive_strategy: Fluid typography scaling. Stacks gracefully to single column on mobile while maintaining the editorial feel.
+components:
+  visual_style:
+    - No rounded corners on web images (sharp, classic).
+    - Mobile mockups use heavily rounded, realistic silhouettes.
+    - Soft, diffuse shadows only on physical object representations (phones).
+  interaction:
+    - Slow, deliberate fade-ups (duration 0.8s+).
+    - Subtle parallax on large imagery.
+    - Text links feature elegant underline expansions rather than chunky button hover states.
+notes: >
+  This design intentionally rejects the "startup" aesthetic. There are no gradients, no glowing blobs, no floating 3D elements (other than the phone frames). The impressiveness comes from the work itself and the impeccable typographic framing.
