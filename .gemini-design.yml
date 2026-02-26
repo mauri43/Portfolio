@@ -1,0 +1,25 @@
+project: "Claude Co-Creations Portfolio"
+created: "2026-02-25"
+brand:
+  mood: "Avant-garde, sophisticated, slightly brutalist, deeply intentional."
+  personality: "The confident artisan. We are not apologizing for using AI; we are treating it as a high-end tool like a master craftsman uses a lathe. The vibe is 'High Fashion meets Deep Tech'."
+color:
+  philosophy: "Monochromatic void with sudden bursts of life. The interface should disappear, letting the work and the typography speak."
+  mode: "dark-only"
+  palette:
+    background: "#09090b" # zinc-950 - Infinite depth
+    foreground: "#fafafa" # zinc-50 - Crisp contrast
+    muted: "#52525b"      # zinc-600 - Secondary info
+    accent: "#ffffff"     # pure white for hover states
+typography:
+  direction: "Extreme scale contrast. Massive, tightly tracked display types paired with tiny, utilitarian monospaced details. No middle ground."
+  headings: "Sans-serif, bold, tracking-tighter, leading-none. (Imagine Neue Montreal or Inter Tight)."
+  body: "Sans-serif, regular weight, relaxed leading."
+  meta: "Monospaced, uppercase, tracking-widest, very small. Used for dates, roles, technical specs."
+layout:
+  principles: "Asymmetry, bleeding edges, extreme negative space. Break out of the 12-column grid mentality. Elements should feel anchored to the viewport edges or floating freely within them."
+  responsive: "Mobile is stacked and typography-driven. Desktop utilizes horizontal space for side-by-side sticky reveals."
+components:
+  visual_style: "No borders, no shadows, no generic cards. Separation is created through spacing and typography scale. Interactive elements respond instantly but smoothly."
+  interaction: "Physics-based motion (Framer Motion springs). Hover states reveal hidden context rather than just changing color. Scroll is a primary narrative driver (parallax, text reveals)."
+notes: "Avoid any visual clichés associated with 'AI' (no glowing brains, no binary code, no neon gradients). The portfolio proves AI capability through the quality of the output, not the decoration of the interface."
